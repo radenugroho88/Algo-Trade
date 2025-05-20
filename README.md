@@ -1,6 +1,8 @@
 🧠 Summary of HFT Bot
-✅ Core Features
-Live/Testnet Mode: Controlled via a LIVE_MODE switch with correct BASE_URL.
+
+*✅ Core Features*
+
+'Live/Testnet Mode': Controlled via a LIVE_MODE switch with correct BASE_URL.
 
 Exchange API: Uses Binance's UMFutures REST API with retry handling via urllib3 + HTTPAdapter.
 
@@ -10,19 +12,19 @@ Signal Generation:
 
 Indicators used:
 
-RSI
+- RSI
 
-MACD & MACD Signal
+- MACD & MACD Signal
 
-20-period Moving Average
+- 20-period Moving Average
 
-Volume average (10-period)
+- Volume average (10-period)
 
-Order Book Imbalance (OBI) is used to improve trade signal reliability.
+- Order Book Imbalance (OBI) is used to improve trade signal reliability.
 
-Threshold-based logic determines if a BUY or SELL signal is valid.
+- Threshold-based logic determines if a BUY or SELL signal is valid.
 
-Order Execution:
+*Order Execution:*
 
 Places market orders on signal.
 
